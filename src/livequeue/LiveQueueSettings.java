@@ -12,12 +12,12 @@ import java.util.Properties;
  */
 public class LiveQueueSettings implements Serializable {
 
-    private String host = "localhost";
-    private int port = 5038;
-    private String userName = "username";
-    private String secret = "password";
-    private String homeDir = System.getProperty("user.home");
-    private File propertiesFile = new File(getHomeDir() + File.separator + "liveQueue.config");
+    private String host;
+    private int port;
+    private String userName;
+    private String secret;
+    private final String homeDir = System.getProperty("user.home");
+    private final File propertiesFile = new File(getHomeDir() + File.separator + "liveQueue.config");
 
     public LiveQueueSettings() {
 
@@ -32,7 +32,15 @@ public class LiveQueueSettings implements Serializable {
             } catch (java.io.IOException e) {
                 System.out.println(e.getStackTrace());
             }
+        } else {
+            this.setUserName("username");
+            this.setHost("localhost");
+            this.setSecret("password");
+            this.setPort(5038);
         }
+    }
+
+    public LiveQueueSettings(String aUsername, String aSecret, String aHost, int aPort) {
 
     }
 
@@ -40,16 +48,8 @@ public class LiveQueueSettings implements Serializable {
         return homeDir;
     }
 
-    public void setHomeDir(String homeDir) {
-        this.homeDir = homeDir;
-    }
-
     public File getPropertiesFile() {
         return propertiesFile;
-    }
-
-    public void setPropertiesFile(File propertiesFile) {
-        this.propertiesFile = propertiesFile;
     }
 
     /**
