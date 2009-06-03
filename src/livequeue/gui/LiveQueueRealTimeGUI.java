@@ -1,9 +1,4 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
  * LiveQueueRealTimeGUI.java
  *
  * Created on Apr 27, 2009, 8:02:45 AM
@@ -60,47 +55,6 @@ public class LiveQueueRealTimeGUI extends javax.swing.JFrame {
         initComponents();
         Thread t = new Thread(new ClientHandler());
         t.start();
-    }
-
-    public void initRealTimeViewText() {
-        // !!!!!!!!!!!!!!!!!
-        // DEPRECATED
-        // !!!!!!!!!!!!!!!!!
-
-        LiveQueueSettings settings = new LiveQueueSettings();
-        ManagerConnection conn = new ManagerConnection(settings.getHost(), settings.getUserName(), settings.getSecret(), settings.getPort());
-        if (conn.login()) {
-            jTabbedPane1.removeAll();
-            ArrayList<AsteriskQueue> astQueues = conn.queueStatus();
-            for (AsteriskQueue q : astQueues) {
-                javax.swing.JTextArea queueText = new javax.swing.JTextArea();
-                queueText.setEditable(false);
-                queueText.append("Calls Waiting: " + q.getCalls() +
-                        " Completed: " + q.getCompleted() + " Abandoned: " + q.getAbandonded() +
-                        " HoldTime: " + q.getHoldTime() + " ServiceLvl: " + q.getServiceLevel() +
-                        " Max: " + q.getMax() + " ServiceLvlPerf: " + q.getServiceLevelPerf() +
-                        " Weight: " + q.getWeight() + "\n\n");
-
-                for (QueueMember m : q.getMembers()) {
-                    queueText.append("\n" + m.getName() +
-                            " - Location: " + m.getLocation() + " Status: " + m.getStatus() +
-                            " CallsTaken: " + m.getCallsTaken() + " LastCall: " + m.getLastCall() +
-                            " Membership: " + m.getMembership() + " Penalty: " + m.getPenalty() +
-                            " Paused: " + m.getPaused() + "\n");
-
-                }
-
-                for (QueueEntry e : q.getEntries()) {
-                    queueText.append("\n" + e.getPosition() + " - " + e.getCallerId() +
-                            " " + e.getCallerIdName() + " Wait: " + e.getWait() + " Channel: " + e.getChannel() + "\n");
-                }
-
-
-                jTabbedPane1.add(q.getName(), queueText);
-            }
-            conn.logoff();
-        }
-
     }
 
     public void initRealTimeViewTable() {
@@ -233,7 +187,6 @@ public class LiveQueueRealTimeGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void fileExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fileExitActionPerformed
-        // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_fileExitActionPerformed
 

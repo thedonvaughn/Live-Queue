@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package livequeue.test;
 
 import java.util.ArrayList;
@@ -12,7 +8,7 @@ import livequeue.asterisk.manager.queue.QueueMember;
 
 /**
  *
- * @author jayson
+ * @author Jayson Vaughn
  */
 public class AsteriskQueueTest extends TestCase {
 

@@ -1,14 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package livequeue.asterisk.manager.action;
 
 import livequeue.asterisk.manager.ManagerConnection;
 
 /**
  *
- * @author jayson
+ * @author Jayson Vaughn
  */
 public class LoginAction implements SendAction {
 

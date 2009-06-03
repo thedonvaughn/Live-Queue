@@ -1,9 +1,4 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
  * LiveQueuePropertyWindow.java
  *
  * Created on Apr 24, 2009, 9:34:22 PM
@@ -194,31 +189,25 @@ public class LiveQueuePropertyWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_cancelButtonActionPerformed
 
     private void hostFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_hostFieldFocusGained
-        // TODO add your handling code here:
         hostField.selectAll();
     }//GEN-LAST:event_hostFieldFocusGained
 
     private void portFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_portFieldActionPerformed
-        // TODO add your handling code here:
     }//GEN-LAST:event_portFieldActionPerformed
 
     private void portFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_portFieldFocusGained
-        // TODO add your handling code here:
         portField.selectAll();
     }//GEN-LAST:event_portFieldFocusGained
 
     private void userNameFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_userNameFieldFocusGained
-        // TODO add your handling code here:
         userNameField.selectAll();
     }//GEN-LAST:event_userNameFieldFocusGained
 
     private void secretFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secretFieldFocusGained
-        // TODO add your handling code here:
         secretField.selectAll();
     }//GEN-LAST:event_secretFieldFocusGained
 
     private void formKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_formKeyPressed
-        // TODO add your handling code here:
         int id = evt.getID();
         if (id == java.awt.event.KeyEvent.VK_ENTER) {
             settings.setHost(hostField.getText());

@@ -1,9 +1,4 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
  * LiveQueueMainGUI.java
  *
  * Created on Apr 26, 2009, 2:27:18 PM
@@ -122,18 +117,15 @@ public class LiveQueueMainGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void queueButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_queueButtonActionPerformed
-// TODO add your handling code here:
         LiveQueueRealTimeGUI realTimeView = new LiveQueueRealTimeGUI();
         realTimeView.setVisible(true);
     }//GEN-LAST:event_queueButtonActionPerformed
 
     private void fileExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fileExitActionPerformed
-// TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_fileExitActionPerformed
 
     private void editPropertiesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_editPropertiesActionPerformed
-        // TODO add your handling code here:
         LiveQueuePropertyWindow properties = new LiveQueuePropertyWindow();
         properties.setVisible(true);
     }//GEN-LAST:event_editPropertiesActionPerformed

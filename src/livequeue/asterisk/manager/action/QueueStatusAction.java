@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package livequeue.asterisk.manager.action;
 
 import livequeue.asterisk.manager.queue.*;
@@ -11,7 +7,7 @@ import java.io.*;
 
 /**
  *
- * @author jayson
+ * @author Jayson Vaughn
  */
 public class QueueStatusAction implements GetAction {
 
