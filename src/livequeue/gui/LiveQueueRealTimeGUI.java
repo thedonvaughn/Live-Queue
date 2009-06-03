@@ -5,7 +5,7 @@
  */
 package livequeue.gui;
 
-import livequeue.LiveQueueSettings;
+import livequeue.gui.LiveQueueSettings;
 import java.awt.EventQueue;
 import java.util.ArrayList;
 import java.util.Arrays;

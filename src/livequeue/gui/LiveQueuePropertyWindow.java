@@ -5,7 +5,7 @@
  */
 package livequeue.gui;
 
-import livequeue.LiveQueueSettings;
+import livequeue.gui.LiveQueueSettings;
 
 /**
  *

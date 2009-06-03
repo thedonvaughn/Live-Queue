@@ -1,7 +1,7 @@
 package livequeue.test;
 
 import junit.framework.TestCase;
-import livequeue.LiveQueueSettings;
+import livequeue.gui.LiveQueueSettings;
 
 /**
  *
