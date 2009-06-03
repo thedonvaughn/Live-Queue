@@ -1,0 +1,23 @@
+=========================================================
+Live Queue
+Copyright (c) 2009 Jayson Vaughn (vaughn.jayson@gmail.com)
+Distributed under the terms of the GNU General Public License.
+==========================================================
+
+About
+-----
+Live Queue is an Asterisk Queue Monitoring application written 
+in Java using the Swing toolkit.
+
+Install
+-------
+
+Make sure you have Java SE 5.0 or greater and ant.
+
+From within Live Queue's working directory:
+
+1) Type 'ant' to build.   
+2) LiveQueue.jar will in the dist/ dir.  Type 'cd dist/'
+3) Run Live Queue by issuing java -jar LiveQueue from within the dist/ directory
+
+Enjoy!

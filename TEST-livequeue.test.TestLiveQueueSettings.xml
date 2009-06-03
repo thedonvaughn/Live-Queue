@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="onedrop" name="livequeue.test.TestLiveQueueSettings" tests="1" time="0.058" timestamp="2009-06-03T00:02:50">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/i386" />
+    <property name="java.vm.version" value="11.3-b02" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="/home/jayson/NetBeansProjects/LiveQueue" />
+    <property name="java.runtime.version" value="1.6.0_13-b03" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/endorsed" />
+    <property name="os.arch" value="i386" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="os.name" value="Linux" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/i386/server:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/../lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/i386/client:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers" />
+    <property name="os.version" value="2.6.28-11-generic" />
+    <property name="user.home" value="/home/jayson" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="user.name" value="jayson" />
+    <property name="java.class.path" value="/usr/local/netbeans-6.5.1/java2/ant/patches/72080.jar:/usr/local/netbeans-6.5.1/java2/ant/patches/ant-42275.jar:/usr/local/netbeans-6.5.1/java2/ant/lib/ant.jar:/usr/local/netbeans-6.5.1/java2/ant/lib/ant-junit.jar:/home/jayson/NetBeansProjects/LiveQueue/build/classes:/home/jayson/NetBeansProjects/LiveQueue/src:/usr/local/netbeans-6.5.1/java2/modules/ext/junit-3.8.2.jar:/home/jayson/NetBeansProjects/LiveQueue/build/test/classes:/home/jayson/NetBeansProjects/LiveQueue/test" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.home" value="/usr/lib/jvm/java-6-sun-1.6.0.13/jre" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.language" value="en" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.6.0_13" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/resources.jar:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/rt.jar:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/jsse.jar:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/jce.jar:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/lib/charsets.jar:/usr/lib/jvm/java-6-sun-1.6.0.13/jre/classes" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="file.separator" value="/" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.cpu.isalist" value="" />
+  </properties>
+  <testcase classname="livequeue.test.TestLiveQueueSettings" name="testWeHaveALiveQueue" time="0.0020" />
+  <system-out><![CDATA["jvaughn" "red"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
